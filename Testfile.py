@@ -1,16 +1,10 @@
 import numpy as np
-import glob
-import datetime
-import math
-import random
 import os
 import shutil
-import matplotlib.pyplot as plt
 import pretty_midi
 from pypianoroll import Multitrack, Track
 import write_midi
-import librosa.display
-from utils import *
+
 
 import tensorflow as tf
 
@@ -159,7 +153,7 @@ def save_midis(bars, file_path, tempo=80.0):
 # print(msd_id_list)
 # for i in range(len(filepaths)):
 #     shutil.copy(filepaths[i], os.path.join(ROOT_PATH, 'MIDI/classic/classic_midi/{}'.format(msd_id_list[i])))
-
+#
 # x1 = np.load(os.path.join(ROOT_PATH, 'MIDI/classic/classic_train/classic_train_piano_1.npy'))
 # x2 = np.load(os.path.join(ROOT_PATH, 'MIDI/classic/classic_train/classic_train_piano_2.npy'))
 # x3 = np.load(os.path.join(ROOT_PATH, 'MIDI/classic/classic_train/classic_train_piano_3.npy'))
@@ -168,8 +162,8 @@ def save_midis(bars, file_path, tempo=80.0):
 # x = np.concatenate((x1, x2, x3, x4, x5), axis=0)
 # print(x.shape)
 # np.save(os.path.join(ROOT_PATH, 'MIDI/classic/classic_train/classic_train_piano.npy'), x)
-
-
+#
+#
 # multitrack = Multitrack(beat_resolution=4, name='YMCA')
 # x = pretty_midi.PrettyMIDI(os.path.join(ROOT_PATH, 'MIDI/famous_songs/P2C/origin/YMCA.mid'))
 # multitrack.parse_pretty_midi(x)

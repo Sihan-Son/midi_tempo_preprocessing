@@ -1,16 +1,9 @@
 import numpy as np
-import glob
-import datetime
-import math
-import random
 import os
 import shutil
-import matplotlib.pyplot as plt
 import pretty_midi
 from pypianoroll import Multitrack, Track
 import write_midi
-import librosa.display
-from utils import *
 
 import tensorflow as tf
 
