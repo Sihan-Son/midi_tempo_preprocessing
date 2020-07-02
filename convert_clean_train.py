@@ -6,7 +6,6 @@ from pypianoroll import Multitrack, Track
 import pretty_midi
 import shutil
 
-# ROOT_PATH = '/Users/sumuzhao/Downloads/'
 
 ROOT_PATH = 'D:\Project\PPProcessing\datasets'
 # 'D:/dataSets/music/Datasets'

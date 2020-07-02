@@ -9,7 +9,6 @@ import tensorflow as tf
 
 ROOT_PATH = 'D:\Project\PPProcessing\datasets'
 # 'D:/dataSets/music/Datasets'
-# '/Users/sumuzhao/Downloads/'
 test_ratio = 0.1
 LAST_BAR_MODE = 'remove'
 
